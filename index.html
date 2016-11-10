@@ -4,14 +4,28 @@
   <meta charset="UTF-8">
   <title>D3 v4 practice</title>
   <script src="//d3js.org/d3.v4.min.js"></script>
+
+  <!--FOR: basics.js-->
   <style>
     nav { display: inline-block; border: 1px solid black; }
     a { display: block; }
     .red { color: red; }
     .green { color: green; }
   </style>
+  <!--END: FOR: basics.js-->
+
+  <style>
+    .chart {
+      background: lightgray;
+      border: 1px solid black;
+      min-width: 200px;
+      min-height: 350px;
+    }
+  </style>
 </head>
 <body>
+
+  <!--For basics.js-->
   <nav class="title">
     <a href="#">About</a>
     <a href="#">Products</a>
@@ -19,7 +33,15 @@
   </nav>
 
   <a href="#" class="action">Buy Now</a>
+  <!--END: for basics.js-->
+
+  <div class="chart">
+    <div>Billy</div>
+    <div>Cindy</div>
+    <div>Walter</div>
+  </div>
 
   <script src="src/app.js"></script>
+  <script src="src/basics.js"></script>
 </body>
 </html>
